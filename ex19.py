@@ -38,3 +38,40 @@ print("And we can combine the two, variables and math:")
 
 # Pass the results of addition into cheese_and_crackers
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+def area_of_rectangle(length, width):
+    return float(length) * float(width)
+
+# 1
+print(area_of_rectangle(1, 2))
+
+# 2
+print(area_of_rectangle(2.5, 2))
+
+# 3
+print(area_of_rectangle(3.0, 1.0))
+
+# 4
+print(area_of_rectangle(2+3, 1+3))
+
+# 5
+print(area_of_rectangle(3-2, 4-3))
+
+# 6
+length = 1
+width = 2
+print(area_of_rectangle(length, width))
+
+# 7
+print(area_of_rectangle(length+1, width+2))
+
+# 8
+print(area_of_rectangle(width, length))
+
+# 9
+some_number = 3
+another_number = 4
+print(area_of_rectangle(some_number, another_number))
+
+# 10
+print(area_of_rectangle(another_number * 100, some_number * 50))
